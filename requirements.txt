@@ -1,0 +1,8 @@
+Agent
+phidata
+groq
+python-dotenv
+yfinance
+duckduckgo-search
+fastapi
+uvicorn

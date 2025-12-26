@@ -1,0 +1,6 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+Demo_Run.mp4
+Report.pdf
