@@ -158,4 +158,17 @@ This allows agents to:
 *   python-dotenv
     
 *   .env for secrets management
+    ```text
     
+MULTI-AGENTIC-AI/
+│
+├── .venv/                      # Python virtual environment (ignored in git)
+├── .env                        # Environment variables (ignored in git)
+├── Multi_Agentic_AI.ipynb      # Core multi-agent system implementation
+├── Documentation.ipynb        # Project documentation and experimentation
+├── requirements.txt           # Python dependencies
+├── Report.pdf                 # Detailed project report
+├── Demo_Run.mp4               # Demo execution video
+├── ArchiDiagram.drawio        # System architecture diagram
+└── README.md                  # Project documentation
+
