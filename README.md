@@ -28,7 +28,6 @@ This project demonstrates how **Agentic AI systems** can collaboratively reason,
 
 ## 🧠 High-Level System Architecture
 
-```text
 User Input
    ↓
 Multi-Agent Orchestrator
@@ -53,6 +52,7 @@ External Knowledge Sources
    │
    ↓
 Consolidated Business Insights
+
 
 Each agent has:
 
