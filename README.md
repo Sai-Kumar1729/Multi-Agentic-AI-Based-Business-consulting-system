@@ -17,32 +17,62 @@ This project demonstrates how **Agentic AI systems** can collaboratively reason,
 * Showcase production-style **LLM integration with tools**.
 * Provide a foundation for **AI-based consulting automation**.
 
-## 🧠 High-Level System Architecture
 
-The following diagram outlines the data flow and agent interaction within the system:
+🤖 Agents Description
+---------------------
+
+### 🔍 Agent 1: Research Agent
+
+**Purpose**
+
+*   Perform company-level research.
+    
+*   Understand business domain, market, and operational context.
+    
+
+**Capabilities**
+
+*   Uses web search (DuckDuckGo).
+    
+*   Gathers high-level company intelligence.
+    
+*   Produces structured research output.
+    
+
+**LLM**
+
+*   LLaMA 3.3 70B (Groq).
+    
+
+### 💡 Agent 2: Use Case Generation Agent
+
+**Purpose**
+
+*   Convert business research into **AI/ML/GenAI use cases**.
+    
+
+**Capabilities**
+
+*   Identifies automation opportunities.
+    
+*   Proposes AI-driven solutions.
+    
+*   Focuses on operational efficiency and impact.
+    
+
+**Output**
+
+*   Actionable, domain-specific AI use cases
 
 ```text
-User Input
-    ↓
-Multi-Agent Orchestrator
-    ↓
-Research Agent
-    │
-    ├─ Web Search (DuckDuckGo)
-    ├─ Financial Data (Yahoo Finance)
-    │
-    ↓
-Use Case Generation Agent
-    │
-    ├─ AI / ML / GenAI Use Case Ideation
-    ├─ Business Problem Mapping
-    │
-    ↓
-External Knowledge Sources
-    │
-    ├─ Kaggle (Datasets)
-    ├─ GitHub (Open-source Projects)
-    ├─ Hugging Face (Models & Datasets)
-    │
-    ↓
-Consolidated Business Insights
+MULTI-AGENTIC-AI/
+│
+├── .venv/                     # Python virtual environment (ignored in git)
+├── .env                       # Environment variables (ignored in git)
+├── Multi_Agentic_AI.ipynb     # Core multi-agent system implementation
+├── Documentation.ipynb        # Project documentation and experimentation
+├── requirements.txt           # Python dependencies
+├── Report.pdf                 # Detailed project report
+├── Demo_Run.mp4               # Demo execution video
+├── ArchiDiagram.drawio        # System architecture diagram
+└── README.md                  # Project documentation
